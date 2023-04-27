@@ -1,0 +1,368 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
+h3 {
+    color: rgb(2, 2, 61);
+    font-size: 35px
+}
+
+.button{
+    height: 40px;
+    width: 80px;
+    background-color: #ff576b;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16 px;
+}
+
+.nav-container {
+    background-color: gainsboro;
+    overflow: auto;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav-container a{
+    display: inline-block;
+    color: black;
+    text-align: justify;
+    padding: 14px 17px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-container a :hover {
+    background-color: brown;
+    color: black;
+}
+
+.digital {
+    background-color: rgb(4, 4, 66);
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    padding-top: 15px;
+    font-size: 700;
+}
+
+.technology {
+position: relative;
+text-align: center;
+color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.concept{
+    
+    position: relative;
+    display: block;
+}
+
+.concepts-class {
+    margin-top: 85px;
+    overflow: hidden;
+    border-bottom: 1px dashed #fff;
+}
+ 
+.concepts-class img {
+    float: left;
+    margin-right: 75px;
+    width: 50%;
+    border-radius: 20% #070448;
+    
+    
+}
+.concepts-class p {
+    font-size: 25px;
+    font-family: DroidSerif-Bold, Droid Serif;
+    word-spacing: 7px;
+    
+}
+
+.difference {
+    margin-top: 70px;
+    position: relative;
+    display: block;
+   }
+
+.difference p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-family: 'Avenir Next bold', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(8, 2, 65);
+    word-spacing: 9px;
+}
+.grid-container {
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top: 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.stat {
+    color: #083a55;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat p{
+    font-size: 20px;
+}
+
+.job-details {
+    height: 386px;
+    background-image: url(images/techies.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 65px 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+.job-details p{
+    width: 80%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Avenir Next bold', sans-serif;
+    line-height: 36px;
+    text-align: center;
+}
+    
+
+.job-details p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.our-programs {
+    margin-top: 85px;
+    position: relative;
+    display: block;
+}
+
+.our-programs p{
+    font-family: 'Avenir Next Bold'sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin: 0 0 35px;
+}
+
+.button-wrapper{
+    position: relative;
+    display: block;
+}
+
+.programs-wrapper{
+    width: calc(100% -200);
+    box-sizing: border-box;
+    position: relative;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+}
+
+.programs {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+.programs p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-family: 'Avenir Next bold', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(8, 2, 65);
+    word-spacing: 9px;
+
+}
+
+.programs-purple{
+    width: 32.3%;
+    border-radius: 5px;
+    margin-right: 1.4%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+.programs-purple img{
+    height: 259px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+
+}
+
+.programs div{
+    border: 1px solid #e8e8e8;
+    border-radius: 0 0 5px 5px;
+    height: calc(100% -260px);
+    display: flex;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.program header{
+    font-family:'Avenir Next bold', sans-serif; 
+    font-size: 16px;
+    color: #333232;
+    padding-left: 18px;
+    margin: 26px 0 0;
+}
+
+ .program-header p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.program-description{
+    font-family:'nunito sans regular', sans-serif;
+    font-size: 14px;
+    color: #3b3b3b;
+    padding: 0 18px;
+    margin: 23px 0 38px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.program-description p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.program-orange{
+    width: 32.3%;
+    border-radius: 5px;
+    margin-right: 1.4%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+.program-orange img{
+    height: 259px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.programs div{
+    border: 1px solid #e8e8e8;
+    border-radius: 0 0 5px 5px;
+    height: calc(100% -260px);
+    display: flex;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.program-red{
+    width: 32.3%;
+    border-radius: 5px;
+    margin-right: 1.4%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+.program-red img{
+    height: 259px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.our-partners {
+    margin-top: 85px;
+    position: relative;
+    display: block;
+}
+
+.our-partners p{
+    font-family: 'Avenir Next Bold'sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin: 0 0 35px;
+}
+
+.button-wrapper{
+    position: relative;
+    display: block;
+}
+
+.partners-wrapper{
+    height: 40px;
+    position: relative;
+    width: calc(100% -200px);
+    box-sizing: border-box;
+    margin: auto;
+    display: block;
+}
+
+.know-more {
+        height: 168px;
+        background-image: url(images/techies.jpg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 65px 0 0;
+        background-size: cover;
+        position: relative;
+        
+    }
+    
+    .know-more p{
+        width: 80%;
+        color: white;
+        font-size: 30px;
+        margin: 10px 0 20px ;
+        font-family: 'Avenir Next bold', sans-serif;
+        text-align: center;
+    }
+        
+    
+    .know-more p{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+
